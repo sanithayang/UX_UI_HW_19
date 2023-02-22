@@ -1,0 +1,130 @@
+/* Nav */
+.nav {
+    background-color: #D3B5E5;
+    display: flex;
+  }
+
+  #grad1 {
+    height: 50px;
+    background-color: #D3B5E5;
+    background-image: linear-gradient(#D3B5E5, white);
+  }
+  
+.center {
+    height: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: auto;
+  }
+
+  .logo {
+    position: absolute;
+  }
+  
+  .center {
+    width: 100%;
+  }
+  
+  .center a {
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Luxurious Roman', cursive;
+  }
+
+/* Column */
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.flexContainer {
+    background:#E8DCF2;
+    display: flex;
+    margin: auto;
+    width: 75%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+}
+
+.myWork, .mySkills, .myValues, .myContact {
+    text-align: center;
+    font-family: 'Luxurious Roman';
+  }
+
+.button1 {
+    background-color: #D3B5E5; 
+    color: black; 
+    border: 2px solid #D3B5E5;
+    font-family: 'Luxurious Roman';
+    font-size: 16px;
+    padding: 16px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D3B5E5;
+    height: 50px;
+  }
+
+  #grad2 {
+    height: 50px;
+    background-color: #D3B5E5;
+    background-image: linear-gradient(#D3B5E5, white);
+  }
+  
+  .footer a {
+    padding: 5px 20px;
+    font-family: 'Luxurious Roman';
+    text-decoration: none;
+  }
+
+  .icons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons1 img {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .icons2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+  }
+
+  .icons2 img {
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600) {
+    .flexContainer {
+      flex-direction: column;
+    }
+    .flex-child {
+      width: 100%;
+    }
+  }
