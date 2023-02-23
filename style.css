@@ -1,7 +1,21 @@
 /* Nav */
-.nav {
-    background-color: #D3B5E5;
+.links {
     display: flex;
+    justify-content: right;
+    align-items: auto;
+  }
+
+  nav a:hover,
+  nav a.active {
+    color: #6B6895;
+  }
+
+  .links a {
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Luxurious Roman', cursive;
   }
 
   #grad1 {
@@ -9,28 +23,9 @@
     background-color: #D3B5E5;
     background-image: linear-gradient(#D3B5E5, white);
   }
-  
-.center {
-    height: 20px;
-    display: flex;
-    justify-content: right;
-    align-items: auto;
-  }
 
   .logo {
     position: absolute;
-  }
-  
-  .center {
-    width: 100%;
-  }
-  
-  .center a {
-    color: black;
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: 'Luxurious Roman', cursive;
   }
 
 /* Column */
@@ -58,7 +53,7 @@
   animation: fadeIn ease-in 1s;
   animation-fill-mode: forwards;
   animation-duration: 1s;
-  opacity: 70%;
+  opacity: 60%;
 }
 
 .fade-in:hover {
@@ -66,12 +61,14 @@
   transition: opacity 1s;
 }
 
-.fade-in.one {
-  animation-delay: .04s;
+.fade-in.one.container-index {
+  animation-delay: 1s;
+  cursor: pointer;
 }
 
-.fade-in.two {
-  animation-delay: 1.0s;
+.fade-in.two.container-index {
+  animation-delay: 1s;
+  cursor: pointer;
 }
 
 .workGrid {
