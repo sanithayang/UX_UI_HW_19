@@ -24,8 +24,12 @@
     background-image: linear-gradient(#D3B5E5, white);
   }
 
-  .logo {
+  nav .brand {
     position: absolute;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Luxurious Roman', cursive;
   }
 
 /* Column */
