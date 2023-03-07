@@ -96,7 +96,7 @@
   justify-content: center;
 }
 
-.myWork, .mySkills, .myValues, .myContact {
+.myWork, .mySkills, .myValues, .myContact, .myHobbies {
     text-align: center;
     font-family: 'Luxurious Roman';
   }
